@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+img {
+    margin-left: 30px;
+    border: 2px solid #4b3327;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    /* display: inline; */
+
+    /* width: 250px; */
+    /* display: block; */
+    margin-left:10px ;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.7rem;
+    padding: 10px ;
+    /* padding: 10px;
+    background: pink; */
+    /* display: block; */
+}
+
+.head {
+    padding: 5px 10px ;
+    margin-bottom: 15px;
+    color:#5f626b;
+    /* margin-left: 10px; */
+    /* display: block; */
+}
+
+h3 {
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+}
+
+h4 {
+    margin-left: 10px;
+    color: rgb(74, 71, 71);
+    margin-bottom: 5px;
+}
+
+.info-contact {
+    display: flex;
+}
+
+.list {
+    margin-left: 10px;
+    /* display: inline; */
+}
+
+a {
+    margin-right: 15px;
+    color: rgb(9, 28, 45);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(111, 108, 108);
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:active {
+    color: brown;
+}
+
+hr {
+    padding: 1px;
+    background: black;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.hobbie {
+    border: 2px solid #d6ee92;
+    background: #f2f9df;
+}
+
+.hobbie ul {
+    padding-left: 30px;
+}
+
+.hobbie li {
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    list-style: decimal;
+
+}
+
+.courses {
+    border: 2px solid #eabdb3;
+    background: #f0e7e5;
+}
+
+.courses ul {
+    padding-left: 20px;
+}
+
+.courses li {
+    list-style: none;
+    border-bottom: 2px solid #eabdb3 ;
+    padding-top: 10px;
+}
+
+.courses li:hover {
+    color: #795132;
+}
+
+.table {
+    border: 2px solid rgb(200, 188, 239);
+    background: rgb(230, 227, 240);
+}
+
+.table table {
+    width: 55%;
+    margin-left: 20px;
+}
+
+.table td {
+    padding-top: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(97, 97, 101);
+}
+
+.table td:hover {
+    color: rgb(112, 105, 160);
+}
+
+.send {
+    border: 2px solid #84cca2;
+    background: #e6efea;
+    padding-bottom: 10px;
+}
+
+.input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #84cca2;
+    height: 15px;
+    background: #e6efea;
+}
+
+.input:hover {
+    background: white;
+}
+
+/* .input:active {
+    background: white;
+} */
+
+
+.message {
+    height: 100px;
+    margin-top: 10px;
+}
+
+.btn {
+    border: 2px solid #84cca2;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+
+.btn:hover {
+    background: #84cca2;
+}
+
+.btn:active {
+    background:green ;
+    border-color: green;
+}
+
+@media(max-width:820px) {
+    .container {
+        margin: 10px 20px;
+    }
+
+}
+
+@media(max-width:725px) {
+
+    img {
+        display: block;
+        margin: 40px auto;
+        margin-bottom: 0;
+    }
+    .info {
+        display: block;
+        text-align: center;
+        max-width: 500px;
+    }
+    .header {
+        margin-top: 20px;
+    }
+
+    .table table {
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    .message {
+        margin-right: 5px;
+        width: 90%;
+    }
+} 
+
