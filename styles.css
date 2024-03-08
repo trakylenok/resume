@@ -243,3 +243,27 @@ hr {
     }
 }
 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: xx-small;
+  }
+
+
+.list a[href="https://t.me/nstrich"] {
+    color: rgb(0, 191, 255);
+}
+
+.list a[href="https://www.instagram.com/a.y.bogacheva/"] {
+    color: rgb(194, 0, 132);
+}
